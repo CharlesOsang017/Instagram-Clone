@@ -1,4 +1,4 @@
-# Instagram
+<!-- # Instagram
 #### Web clone of the Instagram app
 
 ## Description
@@ -78,4 +78,4 @@ Like functionality not well implemented
 Contact me for further help/support
 
 ### License
-Copyright (c) **Wanjiiru**
+Copyright (c) **Wanjiiru** -->
