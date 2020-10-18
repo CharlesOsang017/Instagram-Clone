@@ -25,15 +25,21 @@
             <ul class="navbar-nav ml-auto" style="list-style: none">
                 <li class="nav-item">
                     {% if user.is_authenticated %}
-                    <a class="nav-link open-nav" href="{% url 'showprofile' id=user.id %}"><i class="fa fa-user" style="font-size:30px;color:black">{{user}}</i></a>
+                   <a class="nav-link open-nav" href="{% url 'showprofile' id=user.id %}"><i class="fa fa-user" style="font-size:30px;color:black">{{user}}</i></a>
                 </li>
 
             </ul>
 
             <ul  class="navbar-nav ml-auto" style="list-style: none">
                    <li>
-                       <i class="fa fa-sign-out" aria-hidden="true"></i>
-                    <a href="/logout">Logout</a>
+                    <i class="fab fa-telegram-plane"></i>
+                   </li>
+                   <li>
+                    <i class="fas fa-heart"></i>
+
+                   </li>
+                   <li>                    
+                    <a href="/logout"><i class="fa fa-sign-out" aria-hidden="true"></i></a>
                    </li>
             </ul>
                                 {%endif%}

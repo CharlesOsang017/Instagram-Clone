@@ -21,7 +21,7 @@
                         </li>
                         {% if profile.owner.id == user.id %}
                         <li class="list-inline-item">
-                            <a  href="{% url 'profile' %}">Edit Profile</a>
+                           <button class="btn btn-outline-secondary"><a  href="{% url 'profile' %}">Edit Profile</a></button>
                         </li>
                         {% else %}
                         <li class="list-inline-item">
