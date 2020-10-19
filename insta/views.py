@@ -7,7 +7,6 @@ from .models import Image, Profile,Comment,Follow,Likes
 from .forms import ProfileForm,ImageForm,CommentForm
 
 
-# Create your views here.
 
 @login_required(login_url='/accounts/login/')
 def home(request):
