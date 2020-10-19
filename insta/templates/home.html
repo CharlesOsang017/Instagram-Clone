@@ -8,7 +8,7 @@
             {% for image in all_images %}
             <div class="card">
                 <a href="{% url 'showprofile' id=image.profile.id %}">
-                    <img src="{{image.profile_details.profile_pic.cdn_url}}" class="rounded-circle" style="width:10%; height:auto" alt=""/>
+                    <img src="{{image.profile_details.profile_pic.cdn_url}}" class="rounded-circle" style="width:80; height: 83" alt=""/>
                         {{image.profile.username}}</a>
                 <hr>
                 <div class="card-img-top">

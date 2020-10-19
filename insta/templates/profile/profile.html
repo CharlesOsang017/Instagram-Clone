@@ -28,8 +28,6 @@
                             <a href="{% url 'follow' user_id=profile.id %}" class="btn btn-primary">Follow</a>
                         </li>
                         {% endif %}
-
-
                     </ul>
                     <ul class="list-inline">
                         <li class="list-inline-item">
@@ -62,7 +60,7 @@
         <div class="col-md-4">
             <h3 class="card-title"><{{image.caption}}</h3>
             <div class="card" style="width: auto">
-                <img src="{{image.pic.cdn_url}}" alt="Image" class="card-img-top">
+                <!-- <img src="{{image.pic.cdn_url}}" alt="Image" class="card-img-top"> -->
 
             </div>
             <div class="container">
