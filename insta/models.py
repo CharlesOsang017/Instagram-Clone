@@ -4,9 +4,6 @@ from pyuploadcare.dj.models import ImageField
 from friendship.models import Friend,Follow,Block
 from django.utils import timezone
 
-# Create your models here.
-
-
 
 class Profile(models.Model):
     profile_pic =ImageField( blank=True)
