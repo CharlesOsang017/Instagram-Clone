@@ -1,5 +1,20 @@
 # Instagram clone
 
+
+## Description
+This is an Instagram clone that shows each and every detail of an individual who is in Instagram.You are able to log in to access the site.
+
+## Author
+* Charles Osango
+
+## Contact Details
+1. Name: Charles Osango
+2. Email: charlesosango02@gmail.com
+3. Phone: 0746170913
+
+## Installations
+1. 
+
 <!-- #Instagram
 #### Web clone of the Instagram app
 
