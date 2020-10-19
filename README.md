@@ -18,6 +18,8 @@ This is an Instagram clone that shows each and every detail of an individual who
 3. Donwload the dependencies
 4. cd to the project and open it in your IDE
 5. Run it
+## Live link
+https://igclone254.herokuapp.com/
 
 ## Technologies used
 * Python 3.6
