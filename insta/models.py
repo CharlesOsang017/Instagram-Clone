@@ -2,6 +2,7 @@ from django.contrib.auth.models import User
 from django.db import models
 from pyuploadcare.dj.models import ImageField
 from friendship.models import Friend,Follow,Block
+from django.utils import timezone
 
 # Create your models here.
 
@@ -63,6 +64,9 @@ class Comment(models.Model):
     image = models.ForeignKey(Image,blank=True, on_delete=models.CASCADE,related_name='comment')
     comment_owner = models.ForeignKey(User, blank=True)
     comment= models.TextField()
+    date_posted = models.DateTimeField(default=timezone.now)
+
+
 
     def save_comment(self):
         self.save()
