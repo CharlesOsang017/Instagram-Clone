@@ -1,6 +1,5 @@
 {% extends 'registration/base.html' %}
 {% load bootstrap4 %}
-
 {% block content %}
 <div class="container">
     <div class="row sign-up">
@@ -8,8 +7,9 @@
             {% if form.errors %}
             <p class="small">Password or Username is incorrect</p>
             {% endif %}
-            <div class="section">
-                <h1>Insta</h1>
+            <div class="section text-center ">
+                <div class="card text-center bg-secondary">
+                <h2>Sign In</h2>
                 <div class="form-section">
                     <form action="/accounts/login/" method="POST">
                         {% csrf_token %}
@@ -26,5 +26,6 @@
             </div>
         </div>
     </div>
+</div>
 </div>
 {% endblock %}
